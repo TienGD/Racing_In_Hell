@@ -5,12 +5,12 @@ public class ObstacleScript : MonoBehaviour
     Rigidbody2D rb;
     public float minSize = 0.5f;
     public float maxSize = 2f;
-    public float minSpeed = 100f;
+    public float minSpeed = 50f;
     public float maxSpeed = 150f;
     public float maxspin = 10f;
 
     // Thêm biến để giới hạn tốc độ tối đa
-    public float maxVelocityLimit = 5f;
+    public float maxVelocityLimit = 7f;
 
     public GameObject bounceEffectPrefab;
 
@@ -18,13 +18,13 @@ public class ObstacleScript : MonoBehaviour
     {
         // Xử lý random kích thước
         float randomSize = Random.Range(minSize, maxSize);
-        transform.localScale = new Vector3(randomSize, randomSize, randomSize);
+        transform.localScale = new Vector3(randomSize, randomSize, 1);
 
         rb = GetComponent<Rigidbody2D>();
 
         // Xử lý lực ban đầu
         float randomSpeed = Random.Range(minSpeed, maxSpeed) / randomSize;
-        Vector2 randomDirection = Random.insideUnitCircle.normalized;
+        Vector2 randomDirection = Random.insideUnitCircle;
         rb.AddForce(randomDirection * randomSpeed);
 
         // Xử lý momen xoắn

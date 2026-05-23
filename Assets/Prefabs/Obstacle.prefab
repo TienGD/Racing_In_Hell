@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6581920725328821460}
   - component: {fileID: 6097034349380746404}
   - component: {fileID: 3753632711862275026}
-  - component: {fileID: 7976205270951110686}
+  - component: {fileID: 3364713105133707185}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -138,8 +138,9 @@ MonoBehaviour:
   minSpeed: 80
   maxSpeed: 150
   maxspin: 10
+  maxVelocityLimit: 7
   bounceEffectPrefab: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
---- !u!58 &7976205270951110686
+--- !u!58 &3364713105133707185
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,4 +175,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.33
+  m_Radius: 0.32
