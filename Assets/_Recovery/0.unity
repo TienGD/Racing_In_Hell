@@ -428,12 +428,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -598,12 +602,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -738,6 +746,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
   m_PrefabInstance: {fileID: 835726051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &599829390 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+  m_PrefabInstance: {fileID: 2140951599}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &601174609
 GameObject:
@@ -941,7 +954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.1064
+      value: 13.21
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
@@ -949,7 +962,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0929
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalRotation.w
@@ -989,12 +1002,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1194,11 +1211,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5
+      value: -1.07
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1242,12 +1259,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1352,12 +1373,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1506,11 +1531,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.36
+      value: 14.16
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1554,12 +1579,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1664,12 +1693,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -2010,6 +2043,7 @@ MonoBehaviour:
   scoreMultiplier: 10
   uIDocument: {fileID: 332448402}
   ExplosionEffect: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
+  borderParent: {fileID: 0}
 --- !u!212 &1885242204
 SpriteRenderer:
   serializedVersion: 2
@@ -2263,12 +2297,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -2524,6 +2562,7 @@ Transform:
   - {fileID: 22011578}
   - {fileID: 1523282657}
   - {fileID: 1859725659}
+  - {fileID: 599829390}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113457455 stripped
@@ -2567,6 +2606,67 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.00000006146729, y: 0.00000011920929}
   m_Radius: 0.33
+--- !u!1001 &2140951599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2075480973}
+    m_Modifications:
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_Name
+      value: Obstacle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7248ca0139a9b5344998df205e470789, type: 3}
 --- !u!1001 &4473651804259236438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2585,11 +2685,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4659
+      value: -0.37
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.5605
+      value: -7.79
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2633,7 +2733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: ExplosionEffect
@@ -2642,7 +2742,11 @@ PrefabInstance:
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 2785148277139761561, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7

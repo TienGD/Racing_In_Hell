@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     private Label highScoreText;
     public GameObject ExplosionEffect;
     private Button RestartButton;
-    public GameObject borderParent;
+    
     
 
     // ĐƯỜNG DẪN FILE TẠI Ổ D
@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
         highScoreText.text = "High Score: " + highScore;
        
         gameObject.SetActive(false);
-        borderParent.SetActive(false);
+       
     }
 
     // --- HÀM XỬ LÝ JSON ---

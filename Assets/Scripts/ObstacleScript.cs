@@ -52,4 +52,6 @@ public class ObstacleScript : MonoBehaviour
             Destroy(bounceEffect, 1f);
         }
     }
+
+
 }
