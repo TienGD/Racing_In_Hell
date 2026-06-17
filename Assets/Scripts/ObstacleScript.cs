@@ -9,10 +9,12 @@ public class ObstacleScript : MonoBehaviour
     public float maxSpeed = 150f;
     public float maxspin = 10f;
 
+
     // Thêm biến để giới hạn tốc độ tối đa
     public float maxVelocityLimit = 7f;
 
     public GameObject bounceEffectPrefab;
+    
 
     void Start()
     {
@@ -41,7 +43,10 @@ public class ObstacleScript : MonoBehaviour
             // Thiết lập vận tốc về mức giới hạn nhưng vẫn giữ nguyên hướng di chuyển
             rb.linearVelocity = rb.linearVelocity.normalized * maxVelocityLimit;
         }
+
+       
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
