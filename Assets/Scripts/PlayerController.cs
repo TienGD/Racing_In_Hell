@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿using System.IO; // THÊM THƯ VIỆN NÀY ĐỂ XỬ LÝ FILE
+using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
-using System.IO; // THÊM THƯ VIỆN NÀY ĐỂ XỬ LÝ FILE
 
 // Tạo một class để chứa dữ liệu cần lưu
 [System.Serializable]
@@ -13,6 +13,7 @@ public class SaveData
 
 public class PlayerController : MonoBehaviour
 {
+    #region VARIABLE DECLARATION AREA
     public float thrustForce = 1f;
     Rigidbody2D rb;
     public float maxSpeed = 5f;
@@ -27,25 +28,34 @@ public class PlayerController : MonoBehaviour
     private Label highScoreText;
     public GameObject ExplosionEffect;
     private Button RestartButton;
-    
-    
+    public GameObject Obstacle;
+    public GameObject Border;
+
+
 
     // ĐƯỜNG DẪN FILE TẠI Ổ D
     private string directoryPath = @"D:\UnityMaterial\GameData";
     private string fileName = "save.json";
     private string fullPath;
 
-    void Start()
+    #endregion
+
+    #region START METHOD
+
+    private void Awake()
     {
-        fullPath = Path.Combine(directoryPath, fileName);
-
-        rb = GetComponent<Rigidbody2D>();
         var root = uIDocument.rootVisualElement;
-
+        rb = GetComponent<Rigidbody2D>();
         scoreText = root.Q<Label>("ScoreLabel");
         highScoreText = root.Q<Label>("HighScoreLabel");
         RestartButton = root.Q<Button>("RestartButton");
+    }
+    #endregion
 
+    #region AWAKE METHOD
+    void Start()
+    {
+        fullPath = Path.Combine(directoryPath, fileName);
         RestartButton.style.display = DisplayStyle.None;
         RestartButton.clicked += ReloadScence;
 
@@ -53,6 +63,9 @@ public class PlayerController : MonoBehaviour
         LoadGameData();
         highScoreText.text = "High Score: " + highScore;
     }
+    #endregion
+
+    #region UPDATE METHOD
 
     void Update()
     {
@@ -62,6 +75,27 @@ public class PlayerController : MonoBehaviour
             MovePlayer();
         }
     }
+
+    #endregion
+
+    #region ONDISABLE METHOD
+    private void OnDisable()
+    {
+        Destroy(gameObject);
+        Destroy(rb);
+        Destroy(Obstacle);
+
+    }
+    #endregion
+
+    #region ONDESTROY METHOD
+    private void OnDestroy()
+    {
+        Border.SetActive(false);
+        Destroy(Border);
+        Debug.Log("OnDestroy called.");
+    }
+    #endregion
 
     void UpdateScore()
     {
@@ -93,13 +127,13 @@ public class PlayerController : MonoBehaviour
             boosterFlame.SetActive(true);
             boosterFlame2.SetActive(true);
         }
-            
+
         if (Mouse.current.leftButton.wasReleasedThisFrame)
         {
             boosterFlame.SetActive(false);
             boosterFlame2.SetActive(false);
         }
-            
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -115,11 +149,13 @@ public class PlayerController : MonoBehaviour
 
         RestartButton.style.display = DisplayStyle.Flex;
         highScoreText.text = "High Score: " + highScore;
-       
+
         gameObject.SetActive(false);
-       
+        Obstacle.SetActive(false);
+
     }
 
+    #region XỬ LÝ JSON
     // --- HÀM XỬ LÝ JSON ---
 
     void SaveGameData()
@@ -159,6 +195,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Không tìm thấy file save, bắt đầu với điểm 0.");
         }
     }
+    #endregion
 
     void ReloadScence()
     {

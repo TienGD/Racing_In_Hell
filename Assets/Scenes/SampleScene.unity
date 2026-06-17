@@ -537,6 +537,10 @@ PrefabInstance:
       value: Obstacle (4)
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -947,6 +951,10 @@ PrefabInstance:
       value: Obstacle (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -1342,6 +1350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
@@ -1756,6 +1768,10 @@ PrefabInstance:
       value: Obstacle (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -1901,6 +1917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
@@ -2328,6 +2348,10 @@ PrefabInstance:
       value: Obstacle (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -2473,6 +2497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
@@ -3002,6 +3030,8 @@ MonoBehaviour:
   scoreMultiplier: 10
   uIDocument: {fileID: 332448402}
   ExplosionEffect: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
+  Obstacle: {fileID: 2075480972}
+  Border: {fileID: 74929133}
 --- !u!212 &1885242204
 SpriteRenderer:
   serializedVersion: 2
@@ -3158,6 +3188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
@@ -3600,6 +3634,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
