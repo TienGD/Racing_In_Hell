@@ -541,6 +541,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -556,6 +560,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -955,6 +963,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -970,6 +982,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -1355,6 +1371,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -1370,6 +1390,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -1772,6 +1796,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -1787,6 +1815,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -1922,6 +1954,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -1937,6 +1973,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -2352,6 +2392,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -2367,6 +2411,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -2502,6 +2550,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -2517,6 +2569,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -2962,7 +3018,7 @@ GameObject:
   - component: {fileID: 1885242205}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3193,6 +3249,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -3208,6 +3268,10 @@ PrefabInstance:
       propertyPath: minSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6
@@ -3639,6 +3703,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1885242200}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885242200}
+    - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxSize
       value: 4
       objectReference: {fileID: 0}
@@ -3657,7 +3725,7 @@ PrefabInstance:
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: ExplosionEffect
       value: 
-      objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+      objectReference: {fileID: 4744040632225360472, guid: ce2229c08db4a2446ba009f5ec437a0a, type: 3}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: maxVelocityLimit
       value: 6

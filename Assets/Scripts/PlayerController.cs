@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
     #endregion
 
-    #region START METHOD
+    #region AWAKE METHOD
 
     private void Awake()
     {
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
     }
     #endregion
 
-    #region AWAKE METHOD
+    #region START METHOD
     void Start()
     {
         fullPath = Path.Combine(directoryPath, fileName);
@@ -76,16 +76,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    #endregion
-
-    #region ONDISABLE METHOD
-    private void OnDisable()
-    {
-        Destroy(gameObject);
-        Destroy(rb);
-        Destroy(Obstacle);
-
-    }
     #endregion
 
     #region ONDESTROY METHOD
@@ -149,9 +139,10 @@ public class PlayerController : MonoBehaviour
 
         RestartButton.style.display = DisplayStyle.Flex;
         highScoreText.text = "High Score: " + highScore;
-
-        gameObject.SetActive(false);
-        Obstacle.SetActive(false);
+        
+        Destroy(gameObject);
+        Destroy(rb);
+        
 
     }
 

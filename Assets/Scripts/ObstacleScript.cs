@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObstacleScript : MonoBehaviour
@@ -14,6 +15,12 @@ public class ObstacleScript : MonoBehaviour
     public float maxVelocityLimit = 7f;
 
     public GameObject bounceEffectPrefab;
+    public GameObject ExplosionEffect;
+
+    public GameObject player;
+
+    public delegate void Explode();
+    public Explode explosionPhenomenon;
     
 
     void Start()
@@ -32,10 +39,13 @@ public class ObstacleScript : MonoBehaviour
         // Xử lý momen xoắn
         float randomTorque = Random.Range(-maxspin, maxspin);
         rb.AddTorque(randomTorque);
+
+        explosionPhenomenon += Explosion;
+
     }
 
     // FixedUpdate được gọi mỗi khung hình vật lý (thích hợp để xử lý Rigidbody)
-    void FixedUpdate()
+    void  Update()
     {
         // Kiểm tra nếu tốc độ hiện tại vượt quá giới hạn
         if (rb.linearVelocity.magnitude > maxVelocityLimit)
@@ -44,7 +54,16 @@ public class ObstacleScript : MonoBehaviour
             rb.linearVelocity = rb.linearVelocity.normalized * maxVelocityLimit;
         }
 
-       
+
+        if (player == null)
+        {
+            explosionPhenomenon.Invoke();
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+
+        }
+
+
     }
 
 
@@ -56,6 +75,11 @@ public class ObstacleScript : MonoBehaviour
             GameObject bounceEffect = Instantiate(bounceEffectPrefab, contactPoint, Quaternion.identity);
             Destroy(bounceEffect, 1f);
         }
+    }
+
+    private void Explosion()
+    {
+        Instantiate(ExplosionEffect, transform.position, transform.rotation);
     }
 
 
